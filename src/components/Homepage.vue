@@ -4,7 +4,7 @@
       <div
         class="flex flex-col w-full justify-center lg:pl-24 lg:px-0   py-12 px-4 items-center pb-8"
       >
-        <h1 class="text-myred font-bold font-mytext text-6xl">Mary Fashion</h1>
+        <h1 class="text-myred font-bold font-mytext text-center text-6xl">Mary Fashion</h1>
         <div class="flex w-full flex-wrap text-center">
           <p class="text-mywhite mt-4 font-mytext text-2xl">
             Truccatrice professionale e studentessa dell'accademia di trucco
@@ -26,11 +26,15 @@
       </div>
     </div>
        <div class="w-full"><Services /></div>
+       <div class="w-full"><Contact /></div>
+
+
    </div>
 </template>
 
 <script setup>
 import ButtonPrimary from "./elements/ButtonPrimary.vue";
 import ButtonSecondary from "./elements/ButtonSecondary.vue";
+import Contact from "./Contact.vue";
 import Services from "./Services.vue";
 </script>
