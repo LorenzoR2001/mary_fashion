@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar.vue";
 
 <template>
   <Navbar />
-  <div class="flex h-screen w-full bg-dark absolute min-h-[500px]">
+  <div class="flex h-screen  w-full  bg-myblack absolute min-h-[3500px]">
     <router-view> </router-view>
   </div>
 </template>

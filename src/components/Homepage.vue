@@ -1,12 +1,12 @@
 <template>
-  <div class="w-full h-screen bg-myblack">
+  <div class="w-full h-full lg:mt-4 md:mt-12 mt-24">
     <div class="w-full grid lg:grid-cols-2">
       <div
-        class="flex flex-col w-full justify-center lg:pl-24 lg:px-0 px-4 items-center pb-8 lg:pb-96"
+        class="flex flex-col w-full justify-center lg:pl-24 lg:px-0   py-12 px-4 items-center pb-8"
       >
-        <h1 class="text-myred font-bold text-6xl">Mary Fashion</h1>
+        <h1 class="text-myred font-bold font-mytext text-6xl">Mary Fashion</h1>
         <div class="flex w-full flex-wrap text-center">
-          <p class="text-mywhite mt-4 text-2xl">
+          <p class="text-mywhite mt-4 font-mytext text-2xl">
             Truccatrice professionale e studentessa dell'accademia di trucco
             <a
               target="_blank"
@@ -25,10 +25,12 @@
         <img class="lg:w-[75%] w-100" src="../assets/mary.jpg" />
       </div>
     </div>
-  </div>
+       <div class="w-full"><Services /></div>
+   </div>
 </template>
 
 <script setup>
 import ButtonPrimary from "./elements/ButtonPrimary.vue";
 import ButtonSecondary from "./elements/ButtonSecondary.vue";
+import Services from "./Services.vue";
 </script>
