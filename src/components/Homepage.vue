@@ -5,7 +5,7 @@
         class="flex flex-col w-full justify-center lg:pl-24 lg:px-0 py-12 px-4 items-center pb-8"
       >
         <h1 class="text-primary font-bold font-mytext text-center text-6xl">
-          Mary Fashion
+          Make Up By Mary
         </h1>
         <div class="flex w-full flex-wrap text-center">
           <p class="text-mywhite mt-4 font-mytext text-2xl">
