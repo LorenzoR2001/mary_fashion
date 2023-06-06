@@ -13,8 +13,8 @@ import Footer from "./components/Footer.vue";
 
 <template> 
   <Navbar   />
-  <div class="flex flex-col h-screen justify-between w-full  bg-myblack absolute min-h-[6200px]">
-    <div><router-view> </router-view></div>
-    <div><Footer/></div>
+  <div class="flex flex-col h-screen justify-between w-full  bg-myblack absolute  ">
+    <div class="bg-myblack"><router-view> </router-view></div>
+    <div class="bg-myblack"><Footer/></div>
   </div>
 </template>

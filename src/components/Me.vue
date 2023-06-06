@@ -1,5 +1,5 @@
 <template>
-    <div class="container   mx-auto  p-12 lg:p-32 pt-96">
+    <div class="container bg-primary  mx-auto  p-16 lg:px-32  ">
         <div class="w-full grid lg:grid-cols-2">
             <div> <img class="lg:w-[75%] w-100" src="../assets/mary2.jpg" /></div>
             <div>

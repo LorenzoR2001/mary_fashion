@@ -8,7 +8,7 @@ export default {
         mywhite: "#F8F8F8",
         mygold: "#ebc67a",
         mygrey: "#707070",
-        primary: "#e8bda1 ",
+        primary: "#e8bda1",
         myblack2: "#161616",
 
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-64 pt-24 pb-12 flex flex-col justify-center">
+  <div class="w-full px-12 bg-myblack lg:px-64 pt-24 pb-12 flex flex-col justify-center">
     <h1
       class="text-center flex justify-center text-primary font-mytext text-5xl"
     >

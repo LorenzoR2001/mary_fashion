@@ -1,7 +1,7 @@
 <template>
     <!-- Container for demo purpose -->
 
-    <div class="container pt-24 my-24 mx-auto md:px-6">
+    <div class="container pt-24 bg-myblack   mx-auto md:px-6">
         <h1 class="text-center text-primary font-mytext mb-12 text-5xl">Contattami</h1>
 
         <!-- Section: Design Block -->

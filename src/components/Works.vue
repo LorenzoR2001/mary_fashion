@@ -2,7 +2,7 @@
   <div class="w-full bg-myblack2">
     <div class="multicolor">
       <h1
-        class="text-center flex pt-48 justify-center bg-myblack2 text-primary font-mytext text-5xl"
+        class="text-center flex pt-28 justify-center bg-myblack2 text-primary font-mytext text-5xl"
       >
         I miei lavori
       </h1>
@@ -51,8 +51,8 @@
   background: linear-gradient(
     to top,
     #e8bda1 0%,
-    #e8bda1 50%,
-    #161616 50%,
+    #e8bda1 60%,
+    #161616 60%,
     #161616 100%
   );
 }
