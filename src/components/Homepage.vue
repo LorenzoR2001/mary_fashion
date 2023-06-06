@@ -4,13 +4,13 @@
       <div
         class="flex flex-col w-full justify-center lg:pl-24 lg:px-0   py-12 px-4 items-center pb-8"
       >
-        <h1 class="text-myred font-bold font-mytext text-center text-6xl">Mary Fashion</h1>
+        <h1 class="text-primary font-bold font-mytext text-center text-6xl">Mary Fashion</h1>
         <div class="flex w-full flex-wrap text-center">
           <p class="text-mywhite mt-4 font-mytext text-2xl">
             Truccatrice professionale e studentessa dell'accademia di trucco
             <a
               target="_blank"
-              class="hover:text-myred"
+              class="hover:text-primary"
               href="https://accademialilianapaduano.it/?gclid=Cj0KCQjwj_ajBhCqARIsAA37s0zAVrUB-zy1zLuFFQyTlTfrUu-FhBcLAnJeqoLueGGAQ6SJkvaJs0waAri4EALw_wcB"
               ><u>Liliana Paduano</u></a
             >. <b>Il viso è una tela dove poter creare un dipinto.</b>
@@ -25,8 +25,13 @@
         <img class="lg:w-[75%] w-100" src="../assets/mary.jpg" />
       </div>
     </div>
-       <div class="w-full"><Services /></div>
-       <div class="w-full"><Contact /></div>
+       <div class="w-full bg-myblack2"><Services /></div>
+       <div class="w-full bg-primary"><Works /></div>
+
+       <div class="w-full bg-primary "><Me /></div>
+
+
+       <div class="w-full "><Contact /></div>
 
 
    </div>
@@ -37,4 +42,6 @@ import ButtonPrimary from "./elements/ButtonPrimary.vue";
 import ButtonSecondary from "./elements/ButtonSecondary.vue";
 import Contact from "./Contact.vue";
 import Services from "./Services.vue";
+import Me from "./Me.vue";
+import Works from "./Works.vue";
 </script>
