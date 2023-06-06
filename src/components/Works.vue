@@ -5,17 +5,17 @@
 
             <div class="w-full lg:px-[20%]   md:px-24 px-12 sm:px-28   grid  grid-cols-2 lg:grid-cols-3 gap-x-6 pt-8">
 
-                <img class=" scale-75 hover:scale-90 ease-in duration-500 " src="../assets/work1.jpg" />
+                <img class="object-cover  scale-75    hover:scale-90 ease-in duration-500 " src="../assets/work1.jpg" />
 
-                <img class=" scale-75 hover:scale-90 ease-in duration-500 " src="../assets/makeup.jpg" />
+                <img class=" object-cover scale-75   hover:scale-90 ease-in duration-500 " src="../assets/work2.jpg" />
 
-                <img class=" scale-75 hover:scale-90 ease-in duration-500 " src="../assets/makeup.jpg" />
+                <img class="  object-cover scale-75   hover:scale-90 ease-in duration-500 " src="../assets/work3.jpg" />
 
-                <img class=" scale-75 hover:scale-90 ease-in duration-500 " src="../assets/makeup.jpg" />
+                <img class="  object-cover scale-75   hover:scale-90 ease-in duration-500 " src="../assets/work4.jpg" />
 
-                <img class=" scale-75 hover:scale-90 ease-in duration-500 " src="../assets/makeup.jpg" />
+                <img class=" object-cover scale-75   hover:scale-90 ease-in duration-500 " src="../assets/work5.jpg" />
 
-                <img class=" scale-75 hover:scale-90 ease-in duration-500 " src="../assets/makeup.jpg" />
+                <img class=" object-cover scale-75   hover:scale-90 ease-in duration-500 " src="../assets/work6.jpg" />
             </div>
         </div>
 
