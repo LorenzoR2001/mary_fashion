@@ -1,5 +1,5 @@
 <template>
-    <div class=" bg-primary opacity-80">
+    <div class=" bg-primary  ">
         <div class="max-w-2xl mx-auto text-mywhite py-10">
             <div class="text-center">
                 <h3 class="text-3xl mb-3"> Seguimi sui social </h3>

@@ -1,7 +1,7 @@
 <template>
     <!-- Container for demo purpose -->
 
-    <div class="container my-24 mx-auto md:px-6">
+    <div class="container pt-24 my-24 mx-auto md:px-6">
         <h1 class="text-center text-primary font-mytext mb-12 text-5xl">Contattami</h1>
 
         <!-- Section: Design Block -->
@@ -10,7 +10,7 @@
             </div>
             <div class="container px-6 md:px-12">
                 <div
-                    class="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]">
+                    class="block rounded-lg  px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  bg-[hsla(0,0%,5%,0.7)]  shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]">
                     <div class="flex flex-wrap">
                         <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
                             <form>
@@ -38,11 +38,11 @@
                                             </div>
                                         </div>
                                         <div class="ml-6 grow">
-                                            <p class="mb-2 font-bold dark:text-white">
+                                            <p class="mb-2 font-bold text-white">
                                                 Telefoni
                                             </p>
 
-                                            <p class="text-neutral-500 dark:text-neutral-200 underline hover:text-primary">
+                                            <p class=" text-neutral-200 underline hover:text-primary">
 
                                                 <a href="tel:+39 366 420 5971">+39 366 420 5971</a>
                                             </p>
@@ -62,11 +62,11 @@
                                             </div>
                                         </div>
                                         <div class="ml-6 grow">
-                                            <p class="mb-2 font-bold dark:text-white">
+                                            <p class="mb-2  text-white">
                                                 Email prenotazioni
                                             </p>
 
-                                            <p class="text-neutral-500 dark:text-neutral-200 underline hover:text-primary">
+                                            <p class="text-neutral-200 underline hover:text-primary">
 
                                                 <a href="mailto:mary@gmail.com"> mary@gmail.com</a>
                                             </p>
@@ -86,11 +86,11 @@
                                             </div>
                                         </div>
                                         <div class="ml-6 grow">
-                                            <p class="mb-2 font-bold dark:text-white">Locazione</p>
-                                            <p class="text-neutral-500 dark:text-neutral-200">
+                                            <p class="mb-2 font-bol text-white">Locazione</p>
+                                            <p class=" text-neutral-200">
                                                 Casalnuovo di Napoli (Na) 80013
                                             </p>
-                                            <p class="text-neutral-500 dark:text-neutral-200">
+                                            <p class=" text-neutral-200">
                                                 Italia (EU)
                                             </p>
                                         </div>
@@ -109,9 +109,9 @@
                                             </div>
                                         </div>
                                         <div class="ml-6 grow">
-                                            <p class="mb-2 font-bold dark:text-white">Bug report</p>
+                                            <p class="mb-2 font-bold text-white">Bug report</p>
 
-                                            <p class="text-neutral-500 dark:text-neutral-200 underline hover:text-primary">
+                                            <p class=" text-neutral-200 underline hover:text-primary">
 
                                                 <a href="mailto:mary@gmail.com"> veroncile@gmail.com</a>
                                             </p>

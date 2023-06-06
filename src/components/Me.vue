@@ -1,5 +1,5 @@
 <template>
-    <div class="container   mx-auto  p-12 lg:p-32">
+    <div class="container   mx-auto  p-12 lg:p-32 pt-96">
         <div class="w-full grid lg:grid-cols-2">
             <div> <img class="lg:w-[75%] w-100" src="../assets/mary2.jpg" /></div>
             <div>
@@ -24,7 +24,7 @@
                                 <p class="text-myblack text-2xl">Età </p>
                             </div>
                             <div class="flex lg:justify-end justify-center">
-                                <span class="text-2xl text-mywhite font-bold">{{ calculate_age(new Date(2002, 11, 4)) }}
+                                <span class="text-2xl text-mywhite font-bold">{{ calculate_age(new Date(2002, 10, 20)) }}
                                 </span>
 
                             </div>
