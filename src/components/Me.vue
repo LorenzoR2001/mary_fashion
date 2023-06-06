@@ -5,7 +5,7 @@
             <div>
                 <div class="w-full    ">
                     <div class="flex justify-center ">
-                        <h2 class="text-mywhite font-bold font-mytext text-4xl">Mi presento</h2>
+                        <h2 class="text-mywhite font-bold font-mytext text-4xl lg:mt-0 mt-8">Mi presento</h2>
                     </div>
                     <div class="mt-8">
                         <div class="w-full grid gap-y-4 lg:grid-cols-2">
