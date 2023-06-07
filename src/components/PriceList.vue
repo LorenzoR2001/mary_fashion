@@ -50,16 +50,13 @@
             <td class="text-mywhite text-center">Shooting</td>
             <td class="text-mywhite text-center">50</td>
           </tr>
-          <tr class="border-t border-1-mywhite">
-            <td class="text-mywhite text-center">MasterClass</td>
-            <td class="text-mywhite text-center">40</td>
-          </tr>
+          
           <tr class="border-t border-1-mywhite">
             <td class="text-mywhite text-center">Pencil technique</td>
             <td class="text-mywhite text-center">45</td>
           </tr>
           <tr class="border-t border-1-mywhite">
-            <td class="text-mywhite text-center">Beaty avanzato</td>
+            <td class="text-mywhite text-center">Beauty avanzato</td>
             <td class="text-mywhite text-center">20</td>
           </tr>
           <tr class="border-t border-1-mywhite">

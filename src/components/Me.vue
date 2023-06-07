@@ -6,7 +6,7 @@
         <div class="w-full">
           <div class="flex justify-center">
             <h2
-              class="text-mywhite font-bold font-mytext text-4xl lg:mt-0 mt-8"
+              class="text-myblack2 font-bold font-mytext text-6xl lg:mt-0 mt-8"
             >
               Mi presento
             </h2>
@@ -17,7 +17,7 @@
                 <p class="text-myblack text-2xl">Nome</p>
               </div>
               <div class="flex lg:col-span-3 lg:justify-end justify-center">
-                <span class="text-2xl text-mywhite font-bold"
+                <span class="text-2xl text-myblack2 font-bold"
                   >Maria Federico</span
                 >
               </div>
@@ -25,7 +25,7 @@
                 <p class="text-myblack text-2xl">Età</p>
               </div>
               <div class="flex lg:col-span-3 lg:justify-end justify-center">
-                <span class="text-2xl text-mywhite font-bold"
+                <span class="text-2xl text-myblack2 font-bold"
                   >{{ calculate_age(new Date(2002, 10, 20)) }}
                 </span>
               </div>
@@ -34,7 +34,7 @@
                 <p class="text-myblack text-2xl">Città</p>
               </div>
               <div class="flex lg:col-span-3 lg:justify-end justify-center">
-                <span class="text-2xl text-mywhite font-bold"
+                <span class="text-2xl text-myblack2 font-bold"
                   >Casalnuovo (Na)
                 </span>
               </div>
@@ -43,7 +43,7 @@
               </div>
               <div class="flex lg:col-span-3 lg:justify-end justify-center">
                 <span
-                  class="text-2xl  text-mywhite font-bold underline"
+                  class="text-2xl  text-myblack2 font-bold underline"
                 >
                   <a href="tel:+39 366 420 5971">+39 366 420 5971</a>
                 </span>
@@ -52,7 +52,7 @@
                 <p class="text-myblack text-2xl">Orari</p>
               </div>
               <div class="flex lg:col-span-3 lg:justify-end justify-center">
-                <span class="text-2xl text-mywhite font-bold"
+                <span class="text-2xl text-myblack2 font-bold"
                   >Lun-Sab (07:00-19:00)
                 </span>
               </div>

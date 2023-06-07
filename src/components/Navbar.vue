@@ -51,7 +51,7 @@
               </svg>
             </a>
           </li>
-          <li class="menu-item"  title="Contatti">
+          <li class="menu-item" title="Contatti">
             <a class="flex justify-center items-center" href="#contact">
               <span class="fa fa-linkedin"
                 ><svg
@@ -68,7 +68,11 @@
             </a>
           </li>
           <li class="menu-item">
-            <a class="flex justify-center items-center"  title="lavori" href="#works">
+            <a
+              class="flex justify-center items-center"
+              title="lavori"
+              href="#works"
+            >
               <span class="fa fa-instagram"
                 ><svg
                   class="fill-primary"
@@ -84,7 +88,11 @@
             </a>
           </li>
           <li class="menu-item">
-            <a class="flex justify-center items-center"  title="Servizi" href="#services">
+            <a
+              class="flex justify-center items-center"
+              title="Servizi"
+              href="#services"
+            >
               <span class="fa fa-twitter">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -117,22 +125,6 @@
               >Home</a
             >
           </li>
-          <li class="text-gray-300">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              class="w-4 h-4 current-fill"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
-              />
-            </svg>
-          </li>
 
           <li>
             <a
@@ -146,22 +138,7 @@
               >Servizi</a
             >
           </li>
-          <li class="text-gray-300">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              class="w-4 h-4 current-fill"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
-              />
-            </svg>
-          </li>
+
           <li>
             <a
               class="text-sm"
@@ -174,22 +151,7 @@
               >I miei lavori</a
             >
           </li>
-          <li class="text-gray-300">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              class="w-4 h-4 current-fill"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
-              />
-            </svg>
-          </li>
+
           <li>
             <a
               :class="
@@ -202,23 +164,7 @@
               >Listino</a
             >
           </li>
-          <li class="text-gray-300">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              class="w-4 h-4 current-fill"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
-              />
-            </svg>
-          </li>
-          <li>
+           <li>
             <a
               class="text-sm hover:text-gray-500"
               href="#contact"
@@ -239,8 +185,6 @@
 import { ref } from "vue";
 
 const visibleMenu = ref(false);
-
- 
 </script>
 <style scoped>
 #menu {
@@ -314,23 +258,25 @@ const visibleMenu = ref(false);
   transform: rotate(-85deg) translateY(-100px) rotate(40deg);
   transition-delay: 0s;
   padding: 1px 5px 6px 5px;
-   
 }
 
 #menu:target > .menu-item:nth-child(5) {
   transform: rotate(-115deg) translateY(-100px) rotate(116deg);
-  padding: 1px 5px 6px 5px;  transition-delay: 0.1s;
+  padding: 1px 5px 6px 5px;
+  transition-delay: 0.1s;
 }
 
 #menu:target > .menu-item:nth-child(3) {
   transform: rotate(-145deg) translateY(-100px) rotate(147deg);
   transition-delay: 0.2s;
-  padding: 1px 5px 6px 5px;}
+  padding: 1px 5px 6px 5px;
+}
 
 #menu:target > .menu-item:nth-child(4) {
   transform: rotate(-175deg) translateY(-100px) rotate(175deg);
   transition-delay: 0.3s;
-  padding: 1px 5px 6px 5px;}
+  padding: 1px 5px 6px 5px;
+}
 
 .content {
   position: absolute;

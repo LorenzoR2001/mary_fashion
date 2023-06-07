@@ -18,7 +18,7 @@
           src="../assets/face.jpg"
         />
         <h2 class="text-mywhite text-2xl text-center mt-2">Pulizia viso</h2>
-        <p class="py-2 text-primary text-center text-2xl">40€</p>
+        <p class="py-2 text-primary text-center text-2xl">10€</p>
       </div>
       <div class="flex flex-col">
         <img
@@ -34,7 +34,7 @@
           src="../assets/hair.jpg"
         />
         <h2 class="text-mywhite text-2xl text-center mt-2">Capelli</h2>
-        <p class="py-2 text-primary text-center text-2xl">20€</p>
+        <p class="py-2 text-primary text-center text-2xl">15€</p>
       </div>
     </div>
   </div>
