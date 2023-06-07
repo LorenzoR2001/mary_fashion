@@ -1,5 +1,8 @@
 <template>
-  <div class="w-full bg-myblack h-full lg:mt-4 md:mt-12 mt-24">
+   
+
+
+   <div class="w-full bg-myblack h-full lg:mt-4 md:mt-12 mt-24">
     <section id="home" class="w-full grid lg:grid-cols-2">
       <div
         class="flex flex-col w-full justify-center lg:pl-24 lg:px-0 py-12 px-4 items-center pb-8"

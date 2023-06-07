@@ -85,7 +85,7 @@
                       <p class="mb-2 text-white">Email prenotazioni</p>
 
                       <p class="text-neutral-200 underline hover:text-primary">
-                        <a href="mailto:mary@gmail.com"> mary@gmail.com</a>
+                        <a href="mailto:mariafederico3010@virigilio.it"> mariafederico3010@virigilio.it</a>
                       </p>
                     </div>
                   </div>
