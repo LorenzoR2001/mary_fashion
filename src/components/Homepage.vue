@@ -1,17 +1,16 @@
 <template>
-   
-
-
-   <div class="w-full bg-myblack h-full lg:mt-4 md:mt-12 mt-24">
+  <div class="w-full bg-myblack h-full lg:mt-4 md:mt-12 mt-24">
     <section id="home" class="w-full grid lg:grid-cols-2">
       <div
-        class="flex flex-col w-full justify-center lg:pl-24 lg:px-0 py-12 px-4 items-center pb-8"
+        class="flex flex-col w-full justify-center xl:pl-32 lg:pl-24   py-12 px-4 pb-8"
       >
-        <h1 class="text-primary font-bold font-mytext text-center text-6xl">
+        <h1
+          class="text-primary font-bold font-mytext text-center lg:text-left text-5xl xl:text-6xl"
+        >
           Make Up By Mary
         </h1>
-        <div class="flex w-full flex-wrap text-center">
-          <p class="text-mywhite mt-4 font-mytext text-2xl">
+        <div class="flex w-full flex-wrap text-center lg:text-left">
+          <p class="text-mywhite mt-4 font-mytext lg:text-xl ">
             Truccatrice professionale e studentessa dell'accademia di trucco
             <a
               target="_blank"
@@ -20,14 +19,14 @@
               ><u>Liliana Paduano</u></a
             >. <b>Il viso è una tela dove poter creare un dipinto.</b>
           </p>
-          <div class="w-full mt-20 gap-x-4 grid grid-cols-2">
-            <a class="w-full" href="#services"
+          <div class="w-full mt-14 gap-x-4 lg:flex grid grid-cols-2">
+            <a class="lg:w-48 lg:px-0 px-[10%] w-full" href="#services"
               ><ButtonPrimary class="w-full" text="Servizi"
             /></a>
-            <a class="w-full" href="#contact"
+            <a class="lg:w-48  lg:px-0 px-[10%] w-full" href="#contact"
               ><ButtonSecondary class="w-full" text="Prenota"
             /></a>
-           </div>
+          </div>
         </div>
       </div>
       <div class="flex justify-end">
@@ -39,6 +38,10 @@
     <section id="missions" class="w-full bg-primary"><Mission /></section>
     <section id="pricelist" class="w-full bg-blakc"><PriceList /></section>
     <section id="me" class="w-full bg-primary"><Me /></section>
+    <section id="testimonial" class="w-full bg-primary">
+      <Testimonial />
+    </section>
+
     <section id="contact" class="w-full"><Contact /></section>
   </div>
 </template>
@@ -54,6 +57,7 @@ import Mission from "./Mission.vue";
 import PriceList from "./PriceList.vue";
 import { useRoute } from "vue-router";
 import router from "../router";
+import Testimonial from "./Testimonial.vue";
 const route = useRoute();
 
 // Add an event listener listening for scroll

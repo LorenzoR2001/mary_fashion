@@ -11,10 +11,7 @@ export default {
         mygrey: "#707070",
         primary: "#e8bda1",
         myblack2: "#161616",
-
-
       },
-       
     },
   },
   plugins: [],

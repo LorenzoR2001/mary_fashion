@@ -1,9 +1,9 @@
 <template>
   <nav
-    class="z-[99] w-full fixed px-4 py-4 flex justify-between items-center bg-white shadow-lg"
+    class="z-[99] w-full fixed px-4 py-4 flex justify-between items-center bg-myblack  "
   >
     <div class="w-full justify-end flex">
-      <a class="text-3xl font-bold leading-none">
+      <a href="#home" class="text-3xl font-bold leading-none">
         <img src="../assets/logo.png" class="w-24" />
       </a>
       <div class="lg:hidden relative w-full flex justify-end">
@@ -119,7 +119,7 @@
               :class="
                 $route.hash === '#home'
                   ? 'text-primary font-bold'
-                  : 'text-myblack'
+                  : 'text-mywhite'
               "
               href="#home"
               >Home</a
@@ -132,7 +132,7 @@
               :class="
                 $route.hash === '#services'
                   ? 'text-primary font-bold'
-                  : 'text-myblack'
+                  : 'text-mywhite'
               "
               href="#services"
               >Servizi</a
@@ -145,7 +145,7 @@
               :class="
                 $route.hash === '#works'
                   ? 'text-primary font-bold  '
-                  : 'text-myblack'
+                  : 'text-mywhite'
               "
               href="#works"
               >I miei lavori</a
@@ -157,7 +157,7 @@
               :class="
                 $route.hash === '#pricelist'
                   ? 'text-primary font-bold '
-                  : 'text-myblack'
+                  : 'text-mywhite'
               "
               class="text-sm hover:text-gray-500"
               href="#pricelist"
@@ -171,7 +171,7 @@
               :class="
                 $route.hash === '#contact'
                   ? 'text-primary font-bold'
-                  : 'text-myblack'
+                  : 'text-mywhite'
               "
               >Contatti</a
             >
