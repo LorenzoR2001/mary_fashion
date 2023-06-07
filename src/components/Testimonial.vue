@@ -61,7 +61,7 @@
         <div class="mb-12 md:mb-0">
           <div class="mb-6 flex justify-center">
             <img
-              src="../assets/test1.jpg"
+              src="../assets/test4.jpg"
               class="w-32 rounded-full shadow-lg"
             />
           </div>
