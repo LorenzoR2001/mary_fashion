@@ -1,6 +1,6 @@
 <template>
   <div class="w-full bg-myblack h-full lg:mt-4 md:mt-12 mt-24">
-    <section id="home" class="w-full grid lg:grid-cols-2">
+    <section id="home" class="w-full grid lg:grid-cols-2 xl:h-screen">
       <div
         class="flex flex-col w-full justify-center xl:pl-32 lg:pl-24   py-12 px-4 pb-8"
       >
