@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto p-12 lg:p-32 pt-96">
+  <div class="container mx-auto p-4 lg:py-32 pt-24">
     <div class="w-full grid lg:grid-cols-2">
       <div>
         <div class="w-full mb-4">

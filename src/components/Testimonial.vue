@@ -18,7 +18,7 @@
           <p class="mb-4 text-mywhite">
             Esperienza unica! Il trucco era una meraviglia per non parlare dei
             massaggi al viso un vero relax, non potevo chiedere di più.
-            Precisione e professionalità. Grazie infinite.<Virgolette />
+            Precisione e professionalità questi sono i due aggettivi che voglio attribuire a Maria, Veramente un'esperienza perfetta consiglio vivamente. Grazie infinite.<Virgolette />
           </p>
           <Stars />
         </div>
