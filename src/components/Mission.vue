@@ -6,8 +6,8 @@
           <h1 class="text-3xl font-bold text-myblack2 font-mytext">Chi sono</h1>
           <div class="flex flex-wrap py-3">
             <p class="text-1xl text-myblack2 border-b-2 border-myblack">
-              Sono Maria, una ragazza la cui passione la trasforma in lavoro.
-              Descrivo il mio lavoro in due semplici concetti;
+              Sono Maria, una ragazza che è riuscita a trasformare la passione di una vita nel lavoro dei propri sogni.
+              Due sono le parole che mi descrivono: 
               <b>Professionalità e cura del cliente</b>
             </p>
           </div>
