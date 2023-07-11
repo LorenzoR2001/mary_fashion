@@ -12,68 +12,50 @@
       <table class="w-full bg-primary">
         <thead class="bg-primary border-0">
           <tr>
-            <th class=" text-start py-4 px-4 text-lg font-semibold">Servizio</th>
-            <th class=" text-start py-4 px-4 text-lg font-semibold">Prezzo</th>
+            <th class="text-start py-4 px-4 text-lg font-semibold">Servizio</th>
+            <th class="text-start py-4 px-4 text-lg font-semibold">Prezzo</th>
           </tr>
         </thead>
         <tbody class="  ">
-          <tr class="    border-x ">
-            <td class="bg-myblack text-mywhite  py-2 px-4  ">Fonatura</td>
-            <td class="bg-myblack text-mywhite  py-2 px-4">15&euro;</td>
-          </tr>
-          <tr class="   border">
-            <td class="bg-myblack text-mywhite   py-2 px-4">Trucco uomo</td>
-            <td class="bg-myblack text-mywhite   py-2 px-4">20</td>
-          </tr>
-
-          <tr class="   border">
-            <td class="text-mywhite   py-2 px-4 bg-myblack">Epoca</td>
-            <td class="text-mywhite   py-2 px-4 bg-myblack">40</td>
-          </tr>
-          <tr class="   border">
-            <td class="bg-myblack text-mywhite   py-2 px-4">Correttivo</td>
-            <td class="bg-myblack text-mywhite   py-2 px-4">40</td>
-          </tr>
-          <tr class="   border">
-            <td class="bg-myblack text-mywhite   py-2 px-4">Teatrale pittorico</td>
-            <td class="bg-myblack text-mywhite   py-2 px-4">50</td>
-          </tr>
-          <tr class="   border">
-            <td class="bg-myblack text-mywhite   py-2 px-4">Moda</td>
-            <td class="bg-myblack text-mywhite   py-2 px-4">50</td>
-          </tr>
-
-          <tr class="   border">
-            <td class="bg-myblack text-mywhite   py-2 px-4">Shooting</td>
-            <td class="bg-myblack text-mywhite   py-2 px-4">50</td>
-          </tr>
-          <tr class="   border">
-            <td class="bg-myblack text-mywhite   py-2 px-4">Cerimonia</td>
-            <td class="bg-myblack text-mywhite   py-2 px-4">50</td>
-          </tr>
-
-          <tr class="   border">
-            <td class="bg-myblack text-mywhite   py-2 px-4">Pencil technique</td>
-            <td class="bg-myblack text-mywhite   py-2 px-4">50</td>
-          </tr>
-          <tr class="   border">
-            <td class="bg-myblack text-mywhite   py-2 px-4">Antiage</td>
-            <td class="bg-myblack text-mywhite   py-2 px-4">55</td>
-          </tr>
-          <tr class="   border">
-            <td class="bg-myblack text-mywhite   py-2 px-4">Televisivo</td>
-            <td class="bg-myblack text-mywhite   py-2 px-4">60</td>
-          </tr>
-          <tr class="   border">
-            <td class="bg-myblack text-mywhite   py-2 px-4">Beauty avanzato</td>
-            <td class="bg-myblack text-mywhite   py-2 px-4">60</td>
-          </tr>
-          <tr class="border ">
-            <td class="bg-myblack text-mywhite   py-2 px-4">Sposa</td>
-            <td class="bg-myblack text-mywhite   py-2 px-4">80</td>
+          <tr
+            v-for="(service, index) in servicesWorks"
+            :class="index > 0 ? 'border' : 'border-x'"
+          >
+            <td class="text-mywhite py-2 px-4 bg-myblack">
+              {{ service?.description }}
+            </td>
+            <td class="text-mywhite py-2 px-4 bg-myblack">
+              {{ service?.price }} &euro;
+            </td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
 </template>
+
+<script setup>
+import services from "../services";
+import { ref, onMounted, reactive } from "vue";
+
+const servicesWorks = reactive([]);
+
+onMounted(() => {
+  getServices();
+});
+
+function getServices() {
+  let params = {
+    element: "services",
+    function: "get",
+  };
+  services
+    .getApi(params)
+    .then((response) => {
+      servicesWorks.push(...response.data);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+}
+</script>

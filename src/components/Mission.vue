@@ -37,15 +37,7 @@
           </div>
         </div>
 
-        <div class="w-full  mb-4">
-          <h1 class="text-3xl font-bold text-myblack2 font-mytext">Mi raccomando</h1>
-          <div class="flex flex-wrap py-3">
-            <p class="text-1xl text-myblack2 border-b-2 border-myblack">
-              Non piangere mai per un uomo, ti si sbava il trucco… Ed il mio
-              mascara vale più di uno stupido maschio.
-            </p>
-          </div>
-        </div>
+         
       </div>
       <div class="flex justify-center relative">
         <img class="lg:w-[75%] w-100" src="../assets/mary3.jpg" />

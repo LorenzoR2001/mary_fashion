@@ -91,15 +91,23 @@ function slideTo(val) {
   currentSlide.value = val;
 }
 
+
+
 function getWorks() {
+
+  let params = {
+    element: "works",
+    function: "get",
+  };
   services
-    .getWorks()
+    .getApi(params)
     .then((response) => {
       works.push(...response.data);
     })
     .catch((error) => {
       console.log(error);
     });
+  
 }
 </script>
 <style scoped>
