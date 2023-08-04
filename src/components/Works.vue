@@ -19,7 +19,7 @@
               @mouseover="showworks = false"
               @mouseout="showworks = true"
               class="object-cover w-[500px] h-[500px]"
-              :src="services.baseURL + 'img/works/' + work"
+              :src="services.baseURL +  work?.file"
             />
             <div class="hidden lg:block w-[500px] h-[500px] bg-mywhite relative p-8">
               <img
@@ -28,9 +28,7 @@
               />
               <h2 class="text-3xl flex justify-start">Make-up</h2>
               <div class="text-xl flex flex-col items-start mt-4 ">
-                <p >Modella - <b>Nome modella</b></p>
-                <p >Tempistica - <b>tot ore</b></p>
-                <p >Tema - <b>Tema trucco</b></p>
+                 <p >Tema - <b>{{work.teme ? work.teme : 'Nessun tema'}}</b></p>
               </div>
             </div>
           </div>
@@ -49,8 +47,9 @@
         v-model="currentSlide"
         ref="carousel"
       >
+       
         <Slide v-for="(work, index) in works" :key="index">
-           <Transition class="  bg-myblack" name="slide-fade">
+            <Transition class="  bg-myblack" name="slide-fade">
             <div
               :class="
                 showworks ? 'slide-fade-leave-active' : 'slide-fade-leave-to'
@@ -61,7 +60,7 @@
               <img
               :class="index== currentSlide ? 'opacity-20' : ''"
                 class="object-cover h-64"
-                :src="services.baseURL + 'img/works/' + work"
+                :src="services.baseURL + work?.file"
               />
             </div>
           </Transition>
