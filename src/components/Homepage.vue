@@ -35,8 +35,8 @@
     </section>
     <section id="services" class="w-full bg-myblack2"><Services /></section>
     <section id="works" class="w-full bg-primary"><Works /></section>
-    <section id="missions" class="w-full bg-primary"><Mission /></section>
-    <section id="pricelist" class="w-full bg-blakc"><PriceList /></section>
+<!--     <section id="missions" class="w-full bg-primary"><Mission /></section>
+ -->    <section id="pricelist" class="w-full bg-blakc"><PriceList /></section>
     <section id="me" class="w-full bg-primary"><Me /></section>
     <section id="testimonial" class="w-full bg-primary">
       <Testimonial />
